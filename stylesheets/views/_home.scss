@@ -1,6 +1,6 @@
 // FIRST SECTION : Presentation
 
-header{
+#principal{
 	width: 100%;
 	height: 100%;
   padding: 3% 12%;
@@ -209,7 +209,7 @@ a.right.carousel-control {
 
 // MEDIA QUERY
 
-header{
+#principal{
 	@media screen and (max-width:#{$screen-phone})
 		{font-size: 16px; height:100%;	}
 	.titulo{
@@ -298,3 +298,35 @@ header{
 		{font-size: 14px !important;}				
 	}
 }
+
+///////////////////////// PROYECTO VIEW /////////////////////////////
+
+// FIRST SECTION : Home
+
+#principal-proyecto{
+	background-image:  url('../assets/images/fondo-3.jpg');
+	background-size: cover;
+	width: 100%;
+	height: 70%;
+	.titulo{
+		color: white;
+		padding-top: 6%;
+	}	
+	.arrow{
+	  z-index: 4;
+	  bottom: 30px;
+	  &.arrow-proyecto {
+	  	bottom: -35px;
+	  	margin: 0 auto;
+	  	position: relative;
+	  }
+	}
+}
+
+#proyectos-todos{
+	padding: 6% 5% 6%;
+	h3{
+		padding-bottom: 2%;
+	}
+}	
+
