@@ -104,7 +104,7 @@ header{
 // FOURTH SECTION : Proyectos
 
 #proyectos{
-	padding: 6% 5% 8%;
+	padding: 6% 5% 6%;
 	background-color: white;
 	h3{
 		padding-bottom: 2%;
@@ -139,7 +139,7 @@ a.right.carousel-control {
 // SIXTH SECTION : Contacto
 
 #contacto{
-		padding: 6% 5% 8%;
+		padding: 6% 5%;
 	.recuadro{
 		border: 1px solid #2980b9;
 		border-radius: 5%;	
@@ -227,5 +227,74 @@ header{
 			@media screen and (max-width:#{$screen-phone})
 			{margin-top: 15%;}
 		}
+	}
+}
+
+#sobre-mi{
+	img{
+		@media screen and (max-width:#{$screen-phone})
+		{width:85%;}		
+	}
+	p{
+		@media screen and (max-width:#{$screen-phone})
+		{font-size: 16px; letter-spacing: 0.02em; line-height: 1.2em; margin: 0;}		
+	}
+	.firma{
+		@media screen and (max-width:#{$screen-phone})
+		{text-align: center;}				
+	}
+	.parrafo{
+		@media screen and (max-width:#{$screen-phone})
+		{padding: 12% 2% 5%;}			
+	}
+}
+
+#mensaje{
+	.contenido-mensaje{
+		@media screen and (max-width:#{$screen-phone})
+		{margin: 6% 7%;}				
+	}
+	h3{
+		@media screen and (max-width:#{$screen-phone})
+		{line-height: 1.3em;}			
+	}
+	img{
+		@media screen and (max-width:#{$screen-phone})
+		{width:20%; margin: 4%}				
+	}
+}
+
+#proyectos{
+	@media screen and (max-width:#{$screen-phone})
+	{margin: 8% 0 10%;}	
+}
+
+#mensaje2{
+	.contenido-mensaje{
+		@media screen and (max-width:#{$screen-phone})
+		{padding: 9%;}		
+	}
+	h3{
+		@media screen and (max-width:#{$screen-phone})
+		{line-height: 1.5em;}			
+	}
+	img{
+		@media screen and (max-width:#{$screen-phone})
+		{width:19%;}					
+	}
+	.btn-default {
+		@media screen and (max-width:#{$screen-phone})
+		{margin: 9% 6% 0!important;}			
+	}	
+}
+
+#contacto{
+	form{
+		@media screen and (max-width:#{$screen-phone})
+		{margin: 3% 0 !important;}		
+	}
+	.parrafo p{
+		@media screen and (max-width:#{$screen-phone})
+		{font-size: 14px !important;}				
 	}
 }
