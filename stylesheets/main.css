@@ -1,4 +1,4 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 /*========================================
 =            Bootstrap                   =
 ========================================*/
@@ -5966,3 +5966,6 @@ a.right.carousel-control {
     padding-bottom: 2%; }
 
 /*# sourceMappingURL=main.css.map */
+#respuesta {
+  display: none;
+}

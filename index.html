@@ -137,15 +137,16 @@
 				<div class="row">
 					<div class="col-md-1 col-xs-12"></div>
 					<div class="col-md-5 col-xs-12">
-						<form action="" class="recuadro">
+						<form action="" class="recuadro" id="fcontacto">
+						  <div class="alert" id="respuesta"></div>
 						  <div class="grupo-formulario col-consulta">
-						    <input type="text" class="style-form style-input" placeholder="Nombre" required=""> 
+						    <input type="text" class="style-form style-input" placeholder="Nombre" name="nombre" required=""> 
 						  </div>
 						  <div class="grupo-formulario col-consulta">
-						    <input type="text" class="style-form style-input" placeholder="Correo electrónico"  required=""> 
+						    <input type="text" class="style-form style-input" placeholder="Correo electrónico" name="correo"  required=""> 
 						  </div>
 						  <div class="grupo-formulario col-consulta">
-								<textarea placeholder="Escribe tu mensaje ..." class="style-form" rows="4"></textarea>
+								<textarea placeholder="Escribe tu mensaje ..." class="style-form" rows="4" name="mensaje"></textarea>
 						  </div> 
 							<div>
 								<button type="button" class="btn btn-default">ENVIAR</button> 
@@ -172,7 +173,7 @@
 			<span class="autor"><span class="glyphicon glyphicon-copyright-mark"></span>&nbsp;2015 Annie Stephannie Azaña Yupanqui</span>
 		</section>				
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script> 
-		<!-- Javascripts de Bootstrap -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script> 
+		<script type="text/javascript" src="js/contacto.js"></script>
 	</body>	
 </html>	
