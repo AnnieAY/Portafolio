@@ -5807,6 +5807,17 @@ a.left.carousel-control,
 a.right.carousel-control {
   background-image: none; }
 
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  line-height: 1;
+  width: 100%;
+  height: 100%; }
+  @media screen and (max-width: 480px) {
+    .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+      height: auto; } }
+
 #mensaje2 {
   background-image: url("../assets/images/fondo-mensaje2.jpg");
   background-attachment: fixed;

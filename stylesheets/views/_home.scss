@@ -119,6 +119,16 @@ a.right.carousel-control {
   background-image: none;
 }
 
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+	display: block;
+	max-width: 100%;
+	line-height: 1;
+	width: 100%;
+	height: 100%;
+  @media screen and (max-width:#{$screen-phone})
+	{height: auto;}		
+}
+
 // FIFTH SECTION : Mensaje 2
 
 #mensaje2{
